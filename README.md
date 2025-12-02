@@ -4,6 +4,8 @@ This repo documents my ongoing personal experiments with **implantable technolog
 
 These implants are part of my body and my engineering journey.
 
+📖 **[View the Documentation Website →](https://J9ck.github.io/human-embedded-tech/)**
+
 ---
 
 ## ⚙️ Implants
