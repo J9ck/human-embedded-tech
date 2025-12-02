@@ -824,6 +824,6 @@ Before getting an implant, test with an NFC ring.
 
 <p align="center">
   <a href="tools-and-equipment.md">← Tools & Equipment</a> •
-  <a href="../README.md">Wiki Home</a> •
+  <a href="index.md">Wiki Home</a> •
   <a href="safety-and-legal.md">Safety & Legal →</a>
 </p>
