@@ -100,47 +100,47 @@ Start here and work your way through:
                          
     ┌─────────────────────────────────────────────────────────────────┐
     │                                                                 │
-    │   PHASE 1: LEARN                     Time: 1-3 months          │
+    │   PHASE 1: LEARN                     Time: 1-3 months           │
     │   ─────────────────                                             │
     │   □ Read Getting Started guide                                  │
     │   □ Study Implants Guide                                        │
-    │   □ Read Safety & Legal (critical!)                            │
+    │   □ Read Safety & Legal (critical!)                             │
     │   □ Learn the Glossary terms                                    │
     │   □ Join community forums                                       │
     │                                                                 │
     ├─────────────────────────────────────────────────────────────────┤
     │                                                                 │
-    │   PHASE 2: PRACTICE                  Time: 1-2 months          │
+    │   PHASE 2: PRACTICE                  Time: 1-2 months           │
     │   ───────────────────                                           │
-    │   □ Buy NFC tags and practice reading/writing                  │
-    │   □ Get a Proxmark3 and learn basic commands                   │
+    │   □ Buy NFC tags and practice reading/writing                   │
+    │   □ Get a Proxmark3 and learn basic commands                    │
     │   □ Experiment with phone NFC                                   │
-    │   □ Build a simple Arduino NFC reader                          │
+    │   □ Build a simple Arduino NFC reader                           │
     │                                                                 │
     ├─────────────────────────────────────────────────────────────────┤
     │                                                                 │
-    │   PHASE 3: DECIDE                    Time: 2-4 weeks           │
+    │   PHASE 3: DECIDE                    Time: 2-4 weeks            │
     │   ────────────────                                              │
     │   □ Choose your first implant                                   │
-    │   □ Find a professional installer                              │
+    │   □ Find a professional installer                               │
     │   □ Prepare for the procedure                                   │
     │   □ Schedule installation                                       │
     │                                                                 │
     ├─────────────────────────────────────────────────────────────────┤
     │                                                                 │
-    │   PHASE 4: IMPLANT                   Time: 1 day               │
+    │   PHASE 4: IMPLANT                   Time: 1 day                │
     │   ─────────────────                                             │
-    │   □ Get your first implant!                                    │
-    │   □ Follow aftercare instructions                              │
+    │   □ Get your first implant!                                     │
+    │   □ Follow aftercare instructions                               │
     │                                                                 │
     ├─────────────────────────────────────────────────────────────────┤
     │                                                                 │
-    │   PHASE 5: BUILD                     Time: Ongoing             │
+    │   PHASE 5: BUILD                     Time: Ongoing              │
     │   ──────────────                                                │
-    │   □ Work through DIY Projects                                  │
-    │   □ Share your experiences                                     │
+    │   □ Work through DIY Projects                                   │
+    │   □ Share your experiences                                      │
     │   □ Help newcomers                                              │
-    │   □ Consider additional implants                               │
+    │   □ Consider additional implants                                │
     │                                                                 │
     └─────────────────────────────────────────────────────────────────┘
 ```
