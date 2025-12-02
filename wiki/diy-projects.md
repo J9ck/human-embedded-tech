@@ -377,6 +377,9 @@ Adafruit_PN532 nfc(-1, -1);  // I2C mode
 
 // Store authorized UIDs here (up to 10)
 // Replace with your implant's UID
+// ⚠️ SECURITY NOTE: For production use, consider storing UIDs in 
+// encrypted EEPROM and implementing proper access management.
+// Hardcoded UIDs are suitable for learning/testing only.
 uint8_t authorizedUIDs[][7] = {
   {0x04, 0xAB, 0xCD, 0xEF, 0x12, 0x34, 0x56},  // Example UID 1
   {0x04, 0x11, 0x22, 0x33, 0x44, 0x55, 0x66},  // Example UID 2
