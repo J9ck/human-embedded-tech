@@ -53,11 +53,21 @@ This project explores not just how implants work — but what they *mean*:
 
 ---
 
+## 🏴‍☠️ PegLeg Project Resources
+
+This repo also includes a comprehensive resource collection for the **PegLeg** implant project — an implantable Raspberry Pi Zero W that creates a wireless dead drop and mesh network.
+
+📁 **[View PegLeg Documentation →](./pegleg/)**
+
+---
+
 ## 🔗 Related
 
 - [Dangerous Things](https://dangerousthings.com)
 - [My implant write-up](https://www.jgcks.com/implant-tech)
 - [Proxmark3 GitHub](https://github.com/RfidResearchGroup/proxmark3)
+- [PegLeg.org](https://www.pegleg.org/)
+- [PirateBox](https://piratebox.cc/)
 
 ---
 
