@@ -1,7 +1,7 @@
 # 🏴‍☠️ PegLeg Implant Project
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Raspberry_Pi_Zero_W.jpg/1200px-Raspberry_Pi_Zero_W.jpg" alt="Raspberry Pi Zero W" width="400"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Raspberry_Pi_Zero_W.jpg/640px-Raspberry_Pi_Zero_W.jpg" alt="Raspberry Pi Zero W" width="400"/>
   <br/>
   <em>Raspberry Pi Zero W — The heart of the PegLeg implant</em>
 </p>
@@ -234,12 +234,14 @@ The software stack is usually based on **PirateBox** or a similar offline networ
 
 ### Installation Guide
 
-#### Option 1: PirateBox Image (Legacy)
+#### ~~Option 1: PirateBox Image (Legacy - Not Recommended)~~
+
+> ⚠️ **Note:** The PirateBox project has been archived and images may no longer be available or maintained. **Use Option 2 (Manual Setup) instead.**
 
 ```bash
-# Note: PirateBox project has been archived
-# Download from: https://piratebox.cc/ (if available)
-# Flash to MicroSD using Raspberry Pi Imager or dd
+# Legacy reference only - not recommended
+# PirateBox: https://piratebox.cc/ (archived)
+# LibraryBox: https://librarybox.us/ (may still be maintained)
 ```
 
 #### Option 2: Manual Setup (Recommended)
@@ -307,7 +309,9 @@ wmm_enabled=0
 macaddr_acl=0
 ignore_broadcast_ssid=0
 
-# Country Code (adjust for your region)
+# Country Code (IMPORTANT: Set to your region for regulatory compliance)
+# Different countries have different WiFi power and channel regulations
+# Examples: US, GB, DE, FR, JP, AU
 # country_code=US
 ```
 
@@ -688,8 +692,8 @@ Through human tissue, expect reduced range compared to an external Pi Zero W.
 
 | Resource | Description |
 |----------|-------------|
-| 🏴‍☠️ [PegLeg.org](https://www.pegleg.org/) | PegLeg project documentation (historical/archive) |
-| 📦 [PirateBox DIY](https://piratebox.cc/) | The original software foundation (project archived) |
+| 🏴‍☠️ [PegLeg.org](https://www.pegleg.org/) | PegLeg project documentation *(may be unavailable - archived project)* |
+| 📦 [PirateBox DIY](https://piratebox.cc/) | The original software foundation *(project archived)* |
 | 🍓 [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) | Official hardware specifications |
 | 📖 [hostapd Documentation](https://w1.fi/hostapd/) | WiFi access point daemon |
 
