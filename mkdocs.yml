@@ -1,16 +1,54 @@
-site_name: Human Embedded Technology Wiki
+site_name: The Biohacking Wiki
 site_url: https://J9ck.github.io/human-embedded-tech/
-site_description: Documentation exploring implantable technology, biohacking history, and human-device integration.
+site_description: Your complete guide to human-technology integration, implantable technology, biohacking, and DIY projects.
 repo_url: https://github.com/J9ck/human-embedded-tech
 edit_uri: edit/main/docs/
 
 theme:
   name: material
+  palette:
+    primary: teal
+    accent: deep purple
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - search.suggest
+    - search.highlight
 
 nav:
   - Home: index.md
-  - Getting Started: biohacking-history.md
+  - Getting Started:
+    - Introduction: getting-started.md
+    - Biohacking History: biohacking-history.md
   - Implants Guide:
-    - Overview: implant-tech-files/index.md
-    - Implant Notes: implant-tech-files/implant-notes.md
-  - PegLeg Project: pegleg/index.md
+    - Complete Guide: implants-guide.md
+    - Technical Notes: implant-tech-files/index.md
+    - My Implant Notes: implant-tech-files/implant-notes.md
+  - Tools & Equipment: tools-and-equipment.md
+  - DIY Projects: diy-projects.md
+  - Safety & Legal: safety-and-legal.md
+  - Reference:
+    - Glossary: glossary.md
+    - Resources: resources.md
+  - Special Projects:
+    - PegLeg Project: pegleg/index.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/J9ck/human-embedded-tech
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
