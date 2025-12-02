@@ -48,22 +48,22 @@ Start here and work your way through:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                     BIOHACKING AT A GLANCE                                   │
+│                     BIOHACKING AT A GLANCE                                  │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
+│                                                                             │
 │   RECOMMENDED FIRST IMPLANT: NExT (~$70)                                    │
 │   • Dual frequency (NFC + RFID)                                             │
 │   • Most versatile for beginners                                            │
 │   • Can clone access cards AND share URLs                                   │
-│                                                                              │
+│                                                                             │
 │   ESSENTIAL TOOL: Proxmark3 Easy (~$80)                                     │
 │   • Read/write/clone RFID cards                                             │
 │   • Research and development                                                │
-│                                                                              │
+│                                                                             │
 │   FIND AN INSTALLER: dangerousthings.com/partners                           │
-│                                                                              │
+│                                                                             │
 │   COMMUNITY: forum.dangerousthings.com                                      │
-│                                                                              │
+│                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
