@@ -1,0 +1,7 @@
+# NFC Payload for xSIID
+NDEF Type: URI
+Payload: https://www.jgcks.com
+Record ID: 0x01
+TTL: Infinite
+
+Written using: NFC Tools (Android)

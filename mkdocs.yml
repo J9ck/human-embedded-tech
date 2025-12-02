@@ -1,0 +1,94 @@
+# MkDocs Configuration
+# Human Embedded Technology Wiki
+
+site_name: Human Embedded Technology Wiki
+docs_dir: docs
+site_description: A comprehensive wiki for human embedded technology, biohacking, and implantable devices.
+site_author: Human Embedded Tech Community
+
+# Repository
+repo_name: J9ck/human-embedded-tech
+repo_url: https://github.com/J9ck/human-embedded-tech
+
+# Theme Configuration
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - toc.integrate
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+# Navigation
+nav:
+  - Home: README.md
+  - Getting Started: wiki/getting-started.md
+  - Implants Guide: wiki/implants-guide.md
+  - Tools & Equipment: wiki/tools-and-equipment.md
+  - DIY Projects: wiki/diy-projects.md
+  - Safety & Legal: wiki/safety-and-legal.md
+  - Glossary: wiki/glossary.md
+  - Resources: wiki/resources.md
+  - Additional Content:
+    - Biohacking History: biohacking-history.md
+    - PegLeg Project: pegleg/README.md
+    - Implant Tech Files: implant-tech-files/README.md
+  - Contributing: CONTRIBUTING.md
+
+# Plugins
+plugins:
+  - search
+
+# Markdown Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - attr_list
+  - md_in_html
+
+# Extra Configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/J9ck/human-embedded-tech
+
+# Copyright
+copyright: Copyright &copy; Human Embedded Technology Wiki Contributors

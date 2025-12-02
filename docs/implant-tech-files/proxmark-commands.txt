@@ -1,0 +1,16 @@
+# Proxmark3 command log (sample)
+# Using Iceman firmware
+
+# Detect low-frequency chip
+lf search
+
+# Clone gym key to T5577 on NExT
+lf t55xx wipe
+lf t55xx detect
+lf t55xx write b 0 d 0x12345678
+
+# Check UID
+lf em 410x watch
+
+# Test scan success
+lf search
