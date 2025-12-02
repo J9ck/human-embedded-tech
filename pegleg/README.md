@@ -86,7 +86,10 @@ The software stack is usually based on **PirateBox** or a similar offline networ
 
 ```bash
 # 1. Flash the PirateBox (or LibraryBox) image to the MicroSD card
-# Download from: https://piratebox.cc/
+# PirateBox project: https://piratebox.cc/
+# Alternative: LibraryBox: https://librarybox.us/
+# Note: The PirateBox project has been archived; consider using a
+# custom Raspberry Pi OS setup with hostapd and a web server instead.
 
 # 2. Configure the wlan0 interface to act as an Access Point (AP)
 sudo nano /etc/hostapd/hostapd.conf
@@ -171,15 +174,15 @@ sudo systemctl enable lighttpd
 | **Heat** | Low-power operation, heat dissipation through coating |
 | **Rejection** | Medical-grade silicone or resin encapsulation |
 | **Power Loss** | Graceful shutdown scripts, journaling filesystem |
-| **MRI Incompatibility** | **DO NOT undergo MRI scans with implant** |
+| **MRI Incompatibility** | **DO NOT undergo MRI scans with implant.** The strong magnetic fields can cause device heating, movement of components, and severe tissue damage. Always inform medical staff about any implants. |
 
 ---
 
 ## References & Inspiration
 
 ### Official Resources
-- 🏴‍☠️ [PegLeg.org](https://www.pegleg.org/) — Official PegLeg project site
-- 📦 [PirateBox DIY](https://piratebox.cc/) — The software foundation
+- 🏴‍☠️ [PegLeg.org](https://www.pegleg.org/) — PegLeg project documentation (historical/archive)
+- 📦 [PirateBox DIY](https://piratebox.cc/) — The original software foundation (project archived)
 - 🍓 [Raspberry Pi Zero W Specs](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
 
 ### News & Articles
