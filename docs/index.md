@@ -127,7 +127,7 @@ What you need to get started
 ## 🎥 Learn More
 
 <div class="video-container">
-  <iframe src="https://www.youtube-nocookie.com/embed/7DxVWhFLI6E" title="Biohacking Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/7DxVWhFLI6E" title="Biohacking Introduction" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 *Video: An introduction to biohacking and human augmentation technology.*
