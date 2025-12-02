@@ -61,6 +61,14 @@ This repo also includes a comprehensive resource collection for the **PegLeg** i
 
 ---
 
+## 📜 History of Technology Biohacking
+
+New to biohacking? Interested in the history and culture of human-technology integration? Check out our comprehensive resource guide covering the timeline, pioneering figures, foundational projects, and recommended reading.
+
+📁 **[View Biohacking History Resources →](./biohacking-history.md)**
+
+---
+
 ## 🔗 Related
 
 - [Dangerous Things](https://dangerousthings.com)
