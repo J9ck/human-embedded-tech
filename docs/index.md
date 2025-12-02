@@ -1,63 +1,136 @@
 # 🧬 The Biohacking Wiki
 
-<p align="center">
-  <strong>Your Complete Guide to Human-Technology Integration</strong>
-  <br/>
-  <em>From curious beginner to confident biohacker</em>
-</p>
+<figure markdown="span">
+  ![Hero Banner](assets/images/hero-banner.svg){ .hero-banner }
+</figure>
 
----
-
-## 🌟 Welcome
-
-Whether you're completely new to biohacking or an experienced grinder, this wiki is your comprehensive resource for everything related to **implantable technology** and human augmentation.
-
-**What you'll find here:**
-
-- Complete guides for beginners to advanced biohackers
-- Detailed documentation on all types of implants
-- DIY projects and tutorials
-- Safety and legal information
-- Tools and equipment guides
-- Community resources
+<div class="highlight-box" markdown>
+**Welcome to your complete guide to human-technology integration.** Whether you're completely new to biohacking or an experienced grinder, this wiki is your comprehensive resource for everything related to **implantable technology** and human augmentation.
+</div>
 
 ---
 
 ## 🚀 Quick Start
 
-### New to Biohacking?
+<div class="quick-start-grid" markdown>
 
-Start here and work your way through:
+<div class="quick-start-card" markdown>
+<span class="big-emoji">📖</span>
+**[Getting Started](getting-started.md)**
 
-| Step | Resource | Description |
-|------|----------|-------------|
-| 1️⃣ | **[Getting Started Guide](getting-started.md)** | Everything a beginner needs to know |
-| 2️⃣ | **[Implants Guide](implants-guide.md)** | Learn about all implant types |
-| 3️⃣ | **[Safety & Legal](safety-and-legal.md)** | Critical safety information |
-| 4️⃣ | **[Tools & Equipment](tools-and-equipment.md)** | What you need to get started |
+Everything a beginner needs to know
 
-### Quick Reference
+<span class="badge badge-beginner">Beginner</span>
+</div>
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                     BIOHACKING AT A GLANCE                                   │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   RECOMMENDED FIRST IMPLANT: NExT (~$70)                                    │
-│   • Dual frequency (NFC + RFID)                                             │
-│   • Most versatile for beginners                                            │
-│   • Can clone access cards AND share URLs                                   │
-│                                                                              │
-│   ESSENTIAL TOOL: Proxmark3 Easy (~$80)                                     │
-│   • Read/write/clone RFID cards                                             │
-│   • Research and development                                                │
-│                                                                              │
-│   FIND AN INSTALLER: dangerousthings.com/partners                           │
-│                                                                              │
-│   COMMUNITY: forum.dangerousthings.com                                      │
-│                                                                              │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+<div class="quick-start-card" markdown>
+<span class="big-emoji">🏷️</span>
+**[Implants Guide](implants-guide.md)**
+
+Learn about all implant types
+
+<span class="badge badge-beginner">All Levels</span>
+</div>
+
+<div class="quick-start-card" markdown>
+<span class="big-emoji">⚠️</span>
+**[Safety & Legal](safety-and-legal.md)**
+
+Critical safety information
+
+<span class="badge badge-required">Required</span>
+</div>
+
+<div class="quick-start-card" markdown>
+<span class="big-emoji">🛠️</span>
+**[Tools & Equipment](tools-and-equipment.md)**
+
+What you need to get started
+
+<span class="badge badge-intermediate">Intermediate</span>
+</div>
+
+</div>
+
+---
+
+## 🏷️ Implant Types
+
+<div class="icon-grid" markdown>
+
+<div class="icon-item" markdown>
+![NFC Implant](assets/images/implants/nfc-implant-icon.svg)
+**NFC**
+</div>
+
+<div class="icon-item" markdown>
+![RFID Implant](assets/images/implants/rfid-implant-icon.svg)
+**RFID**
+</div>
+
+<div class="icon-item" markdown>
+![Magnet Implant](assets/images/implants/magnet-implant-icon.svg)
+**Magnet**
+</div>
+
+<div class="icon-item" markdown>
+![LED Implant](assets/images/implants/led-implant-icon.svg)
+**LED**
+</div>
+
+</div>
+
+### Implant Placement Guide
+
+<div class="diagram" markdown>
+<figure markdown="span">
+  ![Hand Placement Diagram](assets/images/implants/hand-placement-diagram.svg){ .center-image width="400" }
+  <figcaption>Common implant locations in the hand</figcaption>
+</figure>
+</div>
+
+---
+
+## 📊 Implant Comparison
+
+<div class="diagram" markdown>
+<figure markdown="span">
+  ![Implant Comparison](assets/images/diagrams/implant-comparison.svg){ .center-image }
+  <figcaption>Compare different implant types at a glance</figcaption>
+</figure>
+</div>
+
+<div class="feature-card" markdown>
+### ⭐ Recommended First Implant: NExT (~$70)
+
+- **Dual frequency** (NFC + RFID) - Most versatile
+- Can clone access cards AND share URLs
+- Great community support
+- Easy to program with smartphone
+
+**Find an installer:** [dangerousthings.com/partners](https://dangerousthings.com/partners/)
+</div>
+
+---
+
+## 🗺️ Learning Path
+
+<div class="diagram" markdown>
+<figure markdown="span">
+  ![Learning Path](assets/images/diagrams/learning-path.svg){ .center-image }
+  <figcaption>Your journey from beginner to biohacker</figcaption>
+</figure>
+</div>
+
+---
+
+## 🎥 Learn More
+
+<div class="video-container">
+  <iframe src="https://www.youtube-nocookie.com/embed/7DxVWhFLI6E" title="Biohacking Introduction" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+*Video: An introduction to biohacking and human augmentation technology.*
 
 ---
 
@@ -67,13 +140,13 @@ Start here and work your way through:
 
 | Guide | Description | Audience |
 |-------|-------------|----------|
-| 📖 **[Getting Started](getting-started.md)** | Complete beginner's introduction to biohacking | Newcomers |
-| 🏷️ **[Implants Guide](implants-guide.md)** | Comprehensive guide to all implant types | All levels |
-| 🛠️ **[Tools & Equipment](tools-and-equipment.md)** | Hardware and software for biohacking | All levels |
-| 🔨 **[DIY Projects](diy-projects.md)** | Practical projects to build | Intermediate |
-| ⚠️ **[Safety & Legal](safety-and-legal.md)** | Critical safety and legal information | **Everyone (Required)** |
-| 📖 **[Glossary](glossary.md)** | Definitions of biohacking terms | All levels |
-| 🔗 **[Resources](resources.md)** | Links, communities, and further reading | All levels |
+| 📖 **[Getting Started](getting-started.md)** | Complete beginner's introduction to biohacking | <span class="badge badge-beginner">Newcomers</span> |
+| 🏷️ **[Implants Guide](implants-guide.md)** | Comprehensive guide to all implant types | <span class="badge badge-beginner">All levels</span> |
+| 🛠️ **[Tools & Equipment](tools-and-equipment.md)** | Hardware and software for biohacking | <span class="badge badge-intermediate">Intermediate</span> |
+| 🔨 **[DIY Projects](diy-projects.md)** | Practical projects to build | <span class="badge badge-intermediate">Intermediate</span> |
+| ⚠️ **[Safety & Legal](safety-and-legal.md)** | Critical safety and legal information | <span class="badge badge-required">Required</span> |
+| 📖 **[Glossary](glossary.md)** | Definitions of biohacking terms | <span class="badge badge-beginner">All levels</span> |
+| 🔗 **[Resources](resources.md)** | Links, communities, and further reading | <span class="badge badge-beginner">All levels</span> |
 
 ### Special Topics
 
@@ -85,68 +158,23 @@ Start here and work your way through:
 
 ---
 
-## 🗺️ Learning Path
+## 🔧 Essential Tools
 
-```
-                         BIOHACKING LEARNING PATH
-                         
-    ┌─────────────────────────────────────────────────────────────────┐
-    │                                                                 │
-    │   PHASE 1: LEARN                     Time: 1-3 months          │
-    │   ─────────────────                                             │
-    │   □ Read Getting Started guide                                  │
-    │   □ Study Implants Guide                                        │
-    │   □ Read Safety & Legal (critical!)                            │
-    │   □ Learn the Glossary terms                                    │
-    │   □ Join community forums                                       │
-    │                                                                 │
-    ├─────────────────────────────────────────────────────────────────┤
-    │                                                                 │
-    │   PHASE 2: PRACTICE                  Time: 1-2 months          │
-    │   ───────────────────                                           │
-    │   □ Buy NFC tags and practice reading/writing                  │
-    │   □ Get a Proxmark3 and learn basic commands                   │
-    │   □ Experiment with phone NFC                                   │
-    │   □ Build a simple Arduino NFC reader                          │
-    │                                                                 │
-    ├─────────────────────────────────────────────────────────────────┤
-    │                                                                 │
-    │   PHASE 3: DECIDE                    Time: 2-4 weeks           │
-    │   ────────────────                                              │
-    │   □ Choose your first implant                                   │
-    │   □ Find a professional installer                              │
-    │   □ Prepare for the procedure                                   │
-    │   □ Schedule installation                                       │
-    │                                                                 │
-    ├─────────────────────────────────────────────────────────────────┤
-    │                                                                 │
-    │   PHASE 4: IMPLANT                   Time: 1 day               │
-    │   ─────────────────                                             │
-    │   □ Get your first implant!                                    │
-    │   □ Follow aftercare instructions                              │
-    │                                                                 │
-    ├─────────────────────────────────────────────────────────────────┤
-    │                                                                 │
-    │   PHASE 5: BUILD                     Time: Ongoing             │
-    │   ──────────────                                                │
-    │   □ Work through DIY Projects                                  │
-    │   □ Share your experiences                                     │
-    │   □ Help newcomers                                              │
-    │   □ Consider additional implants                               │
-    │                                                                 │
-    └─────────────────────────────────────────────────────────────────┘
-```
+<div class="icon-grid" markdown>
 
----
+<div class="icon-item" markdown>
+![Proxmark3](assets/images/tools/proxmark3-icon.svg)
+**Proxmark3**
+RFID Research
+</div>
 
-## ⚙️ Featured Implants
+<div class="icon-item" markdown>
+![Arduino](assets/images/tools/arduino-icon.svg)
+**Arduino**
+DIY Projects
+</div>
 
-| Implant | Type | Purpose | Location |
-|---------|------|---------|----------|
-| `xSIID` | NFC + LED | Resume link via NFC tap | Left hand |
-| `NExT` | NFC + RFID | Gym access (cloned card) | Right hand |
-| `xG3 v1` | Magnet | Electromagnetic sensing | Left hand (webbing) |
-| `xG3 v2` | Magnet | Stronger magnetic sensing | Right hand (webbing) |
+</div>
 
 ---
 
@@ -183,9 +211,11 @@ This wiki is a community resource. Contributions are welcome!
 - 🌐 Translate content
 - 🐛 Report issues
 
-See [Resources](resources.md#contributing-to-this-wiki) for contribution guidelines or check out our [Contributing Guidelines](https://github.com/J9ck/human-embedded-tech/blob/main/CONTRIBUTING.md).
+See [Resources](resources.md#contributing-to-this-wiki) for contribution guidelines or check out our [Contributing Guidelines](https://github.com/J9ck/biohacking-wiki/blob/main/CONTRIBUTING.md).
 
 ---
+
+<div class="divider"></div>
 
 <p align="center">
   <br/>

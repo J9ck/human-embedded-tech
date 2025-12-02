@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- NFC Implant Icon -->
+  <defs>
+    <linearGradient id="nfcGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#009688;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00695c;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect x="4" y="4" width="56" height="56" rx="8" fill="url(#nfcGrad)"/>
+  <!-- NFC waves -->
+  <g stroke="white" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M24 32 Q24 22 32 22"/>
+    <path d="M20 32 Q20 18 32 18"/>
+    <path d="M16 32 Q16 14 32 14"/>
+  </g>
+  <!-- Chip -->
+  <rect x="28" y="28" width="16" height="16" rx="2" fill="white"/>
+  <rect x="31" y="31" width="10" height="10" rx="1" fill="url(#nfcGrad)"/>
+  <!-- Contact points -->
+  <rect x="33" y="33" width="2" height="2" fill="white"/>
+  <rect x="37" y="33" width="2" height="2" fill="white"/>
+  <rect x="33" y="37" width="2" height="2" fill="white"/>
+  <rect x="37" y="37" width="2" height="2" fill="white"/>
+</svg>
