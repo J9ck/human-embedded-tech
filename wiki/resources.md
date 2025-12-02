@@ -55,21 +55,23 @@ A curated collection of resources, communities, and links for biohackers at all 
 
 | Subreddit | Members | Focus |
 |-----------|---------|-------|
-| [r/biohackers](https://reddit.com/r/biohackers) | 250K+ | General biohacking |
-| [r/transhumanism](https://reddit.com/r/transhumanism) | 100K+ | Transhumanist philosophy |
-| [r/Grinders](https://reddit.com/r/Grinders) | 20K+ | Implant-focused |
-| [r/Nootropics](https://reddit.com/r/Nootropics) | 300K+ | Cognitive enhancement |
-| [r/QuantifiedSelf](https://reddit.com/r/QuantifiedSelf) | 50K+ | Self-tracking |
-| [r/RFID](https://reddit.com/r/RFID) | 15K+ | RFID technology |
-| [r/cyberpunk](https://reddit.com/r/cyberpunk) | 800K+ | Cyberpunk culture |
+| [r/biohackers](https://reddit.com/r/biohackers) | 300K+ | General biohacking |
+| [r/transhumanism](https://reddit.com/r/transhumanism) | 150K+ | Transhumanist philosophy |
+| [r/Grinders](https://reddit.com/r/Grinders) | 25K+ | Implant-focused |
+| [r/Nootropics](https://reddit.com/r/Nootropics) | 350K+ | Cognitive enhancement |
+| [r/QuantifiedSelf](https://reddit.com/r/QuantifiedSelf) | 60K+ | Self-tracking |
+| [r/RFID](https://reddit.com/r/RFID) | 20K+ | RFID technology |
+| [r/flipperzero](https://reddit.com/r/flipperzero) | 150K+ | Flipper Zero community |
+| [r/cyberpunk](https://reddit.com/r/cyberpunk) | 1M+ | Cyberpunk culture |
 
 ### Discord Servers
 
 | Server | Focus | How to Join |
 |--------|-------|-------------|
 | **Dangerous Things** | Implants | Via forum.dangerousthings.com |
-| **Flipper Zero** | Flipper community | Via Flipper website |
+| **Flipper Zero** | Flipper community | Via Flipper website or Discord link |
 | **Home Assistant** | Smart home | Via Home Assistant website |
+| **RFID Research Group** | Proxmark3 & RFID | Via GitHub or community links |
 
 ### Social Media
 
@@ -78,6 +80,7 @@ A curated collection of resources, communities, and links for biohackers at all 
 | **Twitter/X** | #biohacking | Community discussions |
 | **Instagram** | #biohacking #grinder | Installation photos, projects |
 | **YouTube** | Various creators | Tutorials, reviews |
+| **TikTok** | #biohacking | Short-form content, demos |
 
 ---
 

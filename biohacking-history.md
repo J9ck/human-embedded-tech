@@ -140,13 +140,32 @@ A comprehensive resource guide for anyone interested in the history, evolution, 
    └─── Synchron beats Neuralink to human trials
         └── Stentrode brain implant tested in humans
 
-2023-2024 ────────────────────────────────────────────────────────────────────
+2023 ─────────────────────────────────────────────────────────────────────────
    │
-   ├─── Neuralink begins human trials
-   │    └── First patient receives brain implant (Noland Arbaugh)
+   ├─── Neuralink receives FDA approval for human trials
+   │    └── Historic milestone for brain-computer interface technology
+   │
+   └─── Synchron continues clinical trials
+        └── Multiple patients using Stentrode for device control
+
+2024 ─────────────────────────────────────────────────────────────────────────
+   │
+   ├─── Neuralink implants first human patient (January)
+   │    └── Noland Arbaugh becomes first Neuralink recipient
+   │    └── Demonstrates thought-controlled cursor movement
+   │
+   ├─── Neuralink implants second patient (June)
+   │    └── Continued advancement in BCI technology
+   │
+   ├─── Dangerous Things releases Apex Flex
+   │    └── Advanced cryptographic implant with Java Card applets
+   │
+   ├─── Flipper Zero becomes mainstream hacking tool
+   │    └── NFC/RFID capabilities popularize implant interaction
    │
    └─── Biohacking community continues to grow
-        └── Estimated 50,000+ people worldwide with implants
+        └── Estimated 100,000+ people worldwide with implants
+        └── Increased mainstream acceptance and media coverage
 ```
 
 ---
@@ -233,16 +252,20 @@ A comprehensive resource guide for anyone interested in the history, evolution, 
 | **Northstar** | 2015 | Subdermal LED implant (cosmetic/signaling) |
 | **North Sense** | 2017 | External-to-body device that vibrates when facing north |
 | **PegLeg** | 2019 | Implantable Raspberry Pi Zero W computer |
+| **Apex Flex** | 2020s | Advanced cryptographic implant with Java Card applet support |
+| **Spark 2** | 2020s | VivoKey cryptographic NFC implant for secure authentication |
 
 ### Key Software & Tools
 
 | Tool | Purpose |
 |------|---------|
 | **Proxmark3** | RFID/NFC analysis, cloning, and emulation device |
+| **Flipper Zero** | Multi-tool for RFID, NFC, IR, Sub-GHz, and GPIO |
 | **NFC Tools** (Android/iOS) | Read/write NFC tags and implants |
 | **ACR122U** | USB NFC reader/writer |
 | **libnfc** | Open-source NFC library |
 | **RFIDler** | RFID development platform |
+| **Chameleon Mini/Tiny** | NFC card emulation device |
 
 ### Influential Concepts
 
