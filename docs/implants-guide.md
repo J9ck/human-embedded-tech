@@ -138,6 +138,7 @@ NFC implants operate at **13.56MHz (High Frequency)** and can interact with smar
 | **xSIID** | NTAG I2C | 888 bytes | Fixed 7-byte | NFC + LED feedback |
 | **xMagic** | Magic NTAG | 888 bytes | Changeable | Cloning NFC systems |
 | **Spark 2** | VivoKey | Varies | Secure | Cryptographic auth |
+| **Apex Flex** | VivoKey Apex | Varies | Secure | Java Card applets, advanced crypto |
 
 #### xNT Deep Dive
 
@@ -496,19 +497,21 @@ DISC (Round/Subdermal)
 | **xG3** | Magnet | N/A | N/A | ~$50 | EM sensing |
 | **Spark 2** | NFC | 13.56MHz | Varies | ~$200 | Security/crypto |
 | **flexNExT** | Dual/Flex | Both | 888B | ~$180 | Extended range |
+| **Apex Flex** | NFC/Crypto | 13.56MHz | Varies | ~$350 | Java applets, advanced security |
 
 ### Compatibility Matrix
 
-| Feature | xEM | xNT | NExT | xSIID | xMagic | Spark |
-|---------|-----|-----|------|-------|--------|-------|
-| Phone NFC | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Clone 125kHz cards | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ |
-| Clone NFC cards | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
-| Store URLs | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Password protect | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| LED feedback | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
-| Cryptographic auth | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
-| MRI safe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Feature | xEM | xNT | NExT | xSIID | xMagic | Spark | Apex |
+|---------|-----|-----|------|-------|--------|-------|------|
+| Phone NFC | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Clone 125kHz cards | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Clone NFC cards | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
+| Store URLs | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Password protect | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| LED feedback | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
+| Cryptographic auth | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
+| Java Card applets | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| MRI safe | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ---
 
@@ -677,6 +680,6 @@ START: What do you want to do?
 
 <p align="center">
   <a href="getting-started.md">← Getting Started</a> •
-  <a href="index.md">Wiki Home</a> •
+  <a href="../README.md">Wiki Home</a> •
   <a href="tools-and-equipment.md">Tools & Equipment →</a>
 </p>

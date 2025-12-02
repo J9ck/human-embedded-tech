@@ -32,6 +32,9 @@ The coiled wire inside an RFID/NFC tag or implant that receives electromagnetic 
 ### ATQA (Answer To Request A)
 A response code sent by ISO14443A NFC tags when queried by a reader. Helps identify the tag type.
 
+### Apex (VivoKey Apex)
+An advanced cryptographic implant from VivoKey/Dangerous Things that supports Java Card applets, enabling customizable secure applications including password management, OTP generation, and cryptographic authentication.
+
 ---
 
 ## B
@@ -130,6 +133,9 @@ The software programmed onto hardware devices. The Proxmark3 uses Iceman firmwar
 
 ### Flex Implant
 A flexible PCB-based implant that has larger antenna area than cylindrical implants, providing better read range. Examples: flexNExT, flexDF.
+
+### Flipper Zero
+A portable multi-tool device for interacting with digital systems. Combines RFID, NFC, Sub-GHz radio, infrared, and GPIO capabilities in a compact form factor with a dolphin mascot interface.
 
 ### FPGA
 Field-Programmable Gate Array. A reprogrammable integrated circuit used in devices like the Proxmark3.
@@ -256,6 +262,9 @@ A popular dual-frequency implant from Dangerous Things containing both NTAG216 (
 ### Neodymium
 A type of rare-earth magnet. N52 neodymium is used in the xG3 magnet implant.
 
+### Neuralink
+A brain-computer interface company founded by Elon Musk. In 2024, Neuralink successfully implanted their N1 device in the first human patients, enabling thought-controlled cursor movement. Represents the cutting edge of neural interface technology.
+
 ### NFC (Near Field Communication)
 A set of communication protocols for devices within about 4 centimeters of each other. Operates at 13.56MHz.
 
@@ -353,6 +362,9 @@ Serial Peripheral Interface, a communication protocol used with some NFC modules
 
 ### Subdermal
 Located or placed beneath the skin. All biohacking implants are subdermal.
+
+### Synchron
+A brain-computer interface company developing the Stentrode, a minimally invasive neural interface implanted via blood vessels. Competed with Neuralink to begin human trials and has successfully enabled paralyzed patients to control devices.
 
 ---
 
@@ -479,6 +491,7 @@ Raspberry Pi Zero W, the board used in the PegLeg implant featuring WiFi and Blu
 | flexNExT | flexNExT Implant | Flex dual-frequency |
 | flexDF | flexDF Implant | Flex DESFire |
 | Spark | Spark 2 | Cryptographic NFC |
+| Apex | Apex Flex | Java Card cryptographic |
 
 ---
 
