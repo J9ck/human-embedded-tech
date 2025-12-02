@@ -155,8 +155,8 @@ A comprehensive resource guide for anyone interested in the history, evolution, 
 
 ### Kevin Warwick — "The Father of Cyborgs"
 
-| | |
-|---|---|
+| Field | Details |
+|-------|---------|
 | **Role** | Professor of Cybernetics, University of Reading |
 | **Contribution** | First scientist to implant RFID and neural interface in himself |
 | **Notable Work** | Project Cyborg 1.0 (1998), Project Cyborg 2.0 (2002) |
@@ -164,8 +164,8 @@ A comprehensive resource guide for anyone interested in the history, evolution, 
 
 ### Amal Graafstra — "Godfather of Biohacking"
 
-| | |
-|---|---|
+| Field | Details |
+|-------|---------|
 | **Role** | Founder of Dangerous Things |
 | **Contribution** | Pioneered accessible RFID/NFC implants for the public |
 | **Notable Work** | Founded first dedicated biohacking implant company (2010) |
@@ -173,8 +173,8 @@ A comprehensive resource guide for anyone interested in the history, evolution, 
 
 ### Neil Harbisson — "First Legal Cyborg"
 
-| | |
-|---|---|
+| Field | Details |
+|-------|---------|
 | **Role** | Artist, Cyborg activist |
 | **Contribution** | Has an antenna implanted in his skull that allows him to perceive colors as sound |
 | **Notable Work** | Co-founded Cyborg Foundation, first person to have a device recognized on passport photo |
@@ -182,8 +182,8 @@ A comprehensive resource guide for anyone interested in the history, evolution, 
 
 ### Moon Ribas — "Cyborg Artist"
 
-| | |
-|---|---|
+| Field | Details |
+|-------|---------|
 | **Role** | Artist, Co-founder of Cyborg Foundation |
 | **Contribution** | Implanted seismic sensor that vibrates when earthquakes occur anywhere on Earth |
 | **Notable Work** | "Waiting for Earthquakes" performance art |
@@ -191,8 +191,8 @@ A comprehensive resource guide for anyone interested in the history, evolution, 
 
 ### Steve Mann — "Father of Wearable Computing"
 
-| | |
-|---|---|
+| Field | Details |
+|-------|---------|
 | **Role** | Professor, MIT Media Lab alumnus |
 | **Contribution** | Pioneered wearable computing from the 1970s onwards |
 | **Notable Work** | EyeTap digital eye glass, mediated reality |
@@ -200,8 +200,8 @@ A comprehensive resource guide for anyone interested in the history, evolution, 
 
 ### Tim Cannon — Grindhouse Wetware
 
-| | |
-|---|---|
+| Field | Details |
+|-------|---------|
 | **Role** | Co-founder of Grindhouse Wetware |
 | **Contribution** | Implanted Circadia device — first biometric-transmitting implant |
 | **Notable Work** | Circadia 1.0, Northstar LED implant |
@@ -209,8 +209,8 @@ A comprehensive resource guide for anyone interested in the history, evolution, 
 
 ### Lepht Anonym — Underground Grinder
 
-| | |
-|---|---|
+| Field | Details |
+|-------|---------|
 | **Role** | Anonymous biohacker and writer |
 | **Contribution** | Documented early DIY implant procedures, often self-performed |
 | **Notable Work** | Blog documenting personal experiments, talks at hacker conferences |
@@ -263,7 +263,7 @@ A comprehensive resource guide for anyone interested in the history, evolution, 
 |--------------|-------|------|
 | **Dangerous Things** | Commercial implants, education | [dangerousthings.com](https://dangerousthings.com) |
 | **Cyborg Foundation** | Cyborg rights, artistic expression | [cyborgfoundation.com](https://www.cyborgfoundation.com) |
-| **Grindhouse Wetware** | DIY implant development | [grindhousewetware.com](http://grindhousewetware.com/) |
+| **Grindhouse Wetware** | DIY implant development | [grindhousewetware.com](https://grindhousewetware.com/) |
 | **Biohack.me** | Community forum and wiki | [biohack.me](https://biohack.me/) |
 | **DIYbio** | DIY biology and genetic hacking | [diybio.org](https://diybio.org/) |
 
@@ -317,7 +317,7 @@ Many cities have hackerspaces where biohacking is explored:
 |------|-------------|
 | [Dangerous Things Blog](https://dangerousthings.com/blog/) | Official news and education |
 | [Biohack.me Wiki](https://wiki.biohack.me/) | Community-maintained knowledge base |
-| [Kevin Warwick's Research](http://www.kevinwarwick.com/) | Professor Warwick's work and publications |
+| [Kevin Warwick's Research](https://www.kevinwarwick.com/) | Professor Warwick's work and publications |
 | [Cyborg Arts](https://www.cyborgarts.com/) | Neil Harbisson's artistic projects |
 
 ---
@@ -446,7 +446,7 @@ If you're new to technology biohacking, here's a suggested path:
 
 ## Contributing
 
-This resource guide is part of the [human-embedded-tech](/) repository. Contributions welcome!
+This resource guide is part of the **human-embedded-tech** repository. Contributions welcome!
 
 - 📝 Add historical events or figures
 - 🔗 Update broken links
