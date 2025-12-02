@@ -391,9 +391,10 @@ Your smartphone is the most accessible NFC tool you already own.
 | **TagWriter** | Android | Write NDEF data | Play Store |
 | **Proxmark3 Client** | Win/Mac/Linux | Control Proxmark3 | [GitHub](https://github.com/RfidResearchGroup/proxmark3) |
 | **libnfc** | Linux/Mac | NFC library | [GitHub](https://github.com/nfc-tools/libnfc) |
-| **mfoc/mfcuk** | Linux | MIFARE cracking | Various |
 | **RFID Tools** | Android | RFID analysis | Play Store |
 | **Flipper Zero App** | Mobile | Flipper control | App Store |
+
+> **Note:** Some RFID security research tools exist for analyzing card vulnerabilities. These should only be used for legitimate research purposes on systems you own or have explicit authorization to test. Unauthorized access to access control systems is illegal in most jurisdictions.
 
 ### Proxmark3 Software Setup
 
