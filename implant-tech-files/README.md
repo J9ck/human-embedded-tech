@@ -1,60 +1,63 @@
-# Subdermal Interface Project
+# 🔧 Technical Files & Configurations
 
-This repo documents my ongoing personal experiments with **implantable technology** — including NFC, RFID, and magnetic chips — to explore real-world use cases for human-device integration.
-
-These implants are part of my body and my engineering journey.
+This directory contains practical technical files, notes, and configurations for working with implantable technology.
 
 ---
 
-## ⚙️ Implants
+## 📂 Contents
 
-| Implant | Type | Purpose | Location |
-|--------|------|---------|----------|
-| `xSIID` | NFC + LED | Resume link via NFC | Left hand |
-| `NExT` | NFC + RFID | Gym key (RFID clone) | Right hand |
-| `xG3 v1` | Magnet | Sensory input (EM fields) | Left hand (webbing) |
-| `xG3 v2` | Magnet | Stronger magnetic sensing | Right hand (webbing) |
-
----
-
-## 🛠️ Tools & Hardware
-
-- **Proxmark3 (Iceman firmware)** – RFID/NFC emulation & cloning
-- **NFC Tools / TagWriter (Android)** – Write NDEF data
-- **Arduino + RC522 / PN532** – Future hardware prototypes
-- **Dangerous Things implant kits** – Implantation-grade hardware
+| File | Description |
+|------|-------------|
+| **[implant-notes.md](./implant-notes.md)** | Personal notes and observations about each implant |
+| **[nfc-payload.txt](./nfc-payload.txt)** | NFC NDEF payload configuration |
+| **[proxmark-commands.txt](./proxmark-commands.txt)** | Common Proxmark3 commands for implant work |
 
 ---
 
-## 🧪 Use Cases
+## 📝 About These Files
 
-- ✅ Clone RFID badge to `NExT` (gym access)
-- ✅ Tap `xSIID` to auto-load [my resume](https://www.jgcks.com)
-- 🔄 Passive magnetic feedback via `xG3` implants (motors, transformers)
-- 🔜 NFC-based lock system (in progress)
+These are real configuration files and notes from actual implant usage. They serve as:
 
----
-
-## 💡 Lessons & Notes
-
-- RFID compatibility is tricky — not all readers respond the same way
-- NFC implants are excellent for physical-world triggers and links
-- Magnet placement affects feedback significantly — webbing isn’t ideal
-- All implants still fully functional after 2+ years
+1. **Reference** — Examples of working configurations
+2. **Documentation** — Record of what works
+3. **Learning** — Starting point for your own projects
 
 ---
 
-## 🔐 Security + Biohacking Ethics
+## 🛠️ How to Use
 
-This project explores not just how implants work — but what they *mean*:
-- How do we secure data inside a body?
-- What are the risks of cloned identity or physical spoofing?
-- How do we build consent-based, safe embedded tech?
+### NFC Payload
+The `nfc-payload.txt` file shows how to format NDEF data for NFC implants. Use apps like:
+- **NFC Tools** (Android) — Most versatile
+- **TagWriter** (Android) — Official NXP app
+- **NFC Tools** (iOS) — Limited writing capability
+
+### Proxmark Commands
+The `proxmark-commands.txt` file contains commands for the **Proxmark3** with **Iceman firmware**. 
+
+> ⚠️ **Note:** Commands may vary slightly between firmware versions. Always verify with current documentation.
+
+### Implant Notes
+Personal observations about real-world implant usage. Your experience may vary based on:
+- Implant placement
+- Individual physiology
+- Reader compatibility
+- Environmental factors
 
 ---
 
-## 📬 Contact
+## 📚 Related Documentation
 
-**Jack Doyle**  
-[https://www.jgcks.com](https://www.jgcks.com)  
-CS + AI Student • RIC • Focused on embedded systems, neurotech, and implantable tech
+- **[Getting Started Guide](../docs/getting-started.md)** — Complete beginner's guide
+- **[Implant Types](../docs/implant-types.md)** — Detailed implant information
+- **[Glossary](../docs/glossary.md)** — Technical terminology
+
+---
+
+## 🤝 Contributing
+
+Have useful configurations or notes to share? Contributions welcome!
+
+- Add new configuration files
+- Improve existing documentation
+- Share working setups
