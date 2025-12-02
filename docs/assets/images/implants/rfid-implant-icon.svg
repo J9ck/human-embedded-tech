@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- RFID Implant Icon -->
+  <defs>
+    <linearGradient id="rfidGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c4dff;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#512da8;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect x="4" y="4" width="56" height="56" rx="8" fill="url(#rfidGrad)"/>
+  <!-- Radio waves -->
+  <g stroke="white" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M18 32 C18 24 24 18 32 18"/>
+    <path d="M14 32 C14 20 20 14 32 14"/>
+    <path d="M32 46 C40 46 46 40 46 32"/>
+    <path d="M32 50 C44 50 50 44 50 32"/>
+  </g>
+  <!-- Central tag -->
+  <rect x="24" y="26" width="16" height="12" rx="2" fill="white"/>
+  <rect x="27" y="29" width="10" height="6" rx="1" fill="url(#rfidGrad)"/>
+</svg>

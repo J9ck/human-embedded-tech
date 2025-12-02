@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#009688;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#004d40;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="circuitGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#80cbc4;stop-opacity:0.3"/>
+      <stop offset="50%" style="stop-color:#80cbc4;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#80cbc4;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#heroBg)"/>
+  
+  <!-- Circuit pattern left side -->
+  <g stroke="#80cbc4" stroke-width="1" fill="none" opacity="0.4">
+    <path d="M0 50 H100 V100 H150 M0 100 H50 V150 H100 V200 H150"/>
+    <path d="M0 150 H80 M0 200 H120 V250 H160"/>
+    <circle cx="100" cy="50" r="4" fill="#80cbc4"/>
+    <circle cx="150" cy="100" r="4" fill="#80cbc4"/>
+    <circle cx="100" cy="200" r="4" fill="#80cbc4"/>
+    <circle cx="160" cy="250" r="4" fill="#80cbc4"/>
+  </g>
+  
+  <!-- Circuit pattern right side -->
+  <g stroke="#80cbc4" stroke-width="1" fill="none" opacity="0.4" transform="translate(1200,0) scale(-1,1)">
+    <path d="M0 50 H100 V100 H150 M0 100 H50 V150 H100 V200 H150"/>
+    <path d="M0 150 H80 M0 200 H120 V250 H160"/>
+    <circle cx="100" cy="50" r="4" fill="#80cbc4"/>
+    <circle cx="150" cy="100" r="4" fill="#80cbc4"/>
+    <circle cx="100" cy="200" r="4" fill="#80cbc4"/>
+    <circle cx="160" cy="250" r="4" fill="#80cbc4"/>
+  </g>
+  
+  <!-- DNA helix pattern across -->
+  <g stroke="url(#circuitGlow)" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M200 80 Q300 120 400 80 Q500 40 600 80 Q700 120 800 80 Q900 40 1000 80"/>
+    <path d="M200 100 Q300 60 400 100 Q500 140 600 100 Q700 60 800 100 Q900 140 1000 100"/>
+  </g>
+  
+  <!-- Central logo element -->
+  <g transform="translate(560, 90)">
+    <circle cx="40" cy="40" r="35" fill="rgba(255,255,255,0.1)" stroke="white" stroke-width="2"/>
+    <path d="M25 20 Q40 30 55 20 M25 35 Q40 25 55 35 M25 50 Q40 60 55 50 M25 65 Q40 55 55 65" 
+          stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <rect x="33" y="33" width="14" height="14" rx="2" fill="white"/>
+    <circle cx="40" cy="40" r="3" fill="#009688"/>
+  </g>
+  
+  <!-- Title text -->
+  <text x="600" y="200" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="42" font-weight="bold">
+    The Biohacking Wiki
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="240" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="18">
+    Your Complete Guide to Human-Technology Integration
+  </text>
+  
+  <!-- Decorative dots -->
+  <g fill="#80cbc4" opacity="0.6">
+    <circle cx="300" cy="150" r="3"/>
+    <circle cx="350" cy="180" r="2"/>
+    <circle cx="850" cy="150" r="3"/>
+    <circle cx="900" cy="120" r="2"/>
+  </g>
+</svg>

@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="phase1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4caf50;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#81c784;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="phase2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2196f3;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#64b5f6;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="phase3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff9800;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ffb74d;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="phase4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9c27b0;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ba68c8;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="phase5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#009688;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#4db6ac;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+    Biohacking Learning Path
+  </text>
+  
+  <!-- Phase 1: Learn -->
+  <g transform="translate(40, 60)">
+    <rect width="140" height="80" rx="8" fill="url(#phase1)"/>
+    <text x="70" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">PHASE 1</text>
+    <text x="70" y="45" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">📚 LEARN</text>
+    <text x="70" y="65" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">1-3 months</text>
+  </g>
+  <path d="M180 100 L220 100" stroke="#4caf50" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Phase 2: Practice -->
+  <g transform="translate(200, 60)">
+    <rect width="140" height="80" rx="8" fill="url(#phase2)"/>
+    <text x="70" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">PHASE 2</text>
+    <text x="70" y="45" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">🔧 PRACTICE</text>
+    <text x="70" y="65" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">1-2 months</text>
+  </g>
+  <path d="M340 100 L380 100" stroke="#2196f3" stroke-width="3"/>
+  
+  <!-- Phase 3: Decide -->
+  <g transform="translate(360, 60)">
+    <rect width="140" height="80" rx="8" fill="url(#phase3)"/>
+    <text x="70" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">PHASE 3</text>
+    <text x="70" y="45" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">🤔 DECIDE</text>
+    <text x="70" y="65" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">2-4 weeks</text>
+  </g>
+  <path d="M500 100 L540 100" stroke="#ff9800" stroke-width="3"/>
+  
+  <!-- Phase 4: Implant -->
+  <g transform="translate(520, 60)">
+    <rect width="140" height="80" rx="8" fill="url(#phase4)"/>
+    <text x="70" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">PHASE 4</text>
+    <text x="70" y="45" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">💉 IMPLANT</text>
+    <text x="70" y="65" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">1 day</text>
+  </g>
+  <path d="M660 100 L700 100" stroke="#9c27b0" stroke-width="3"/>
+  
+  <!-- Phase 5: Build -->
+  <g transform="translate(680, 60)">
+    <rect width="100" height="80" rx="8" fill="url(#phase5)"/>
+    <text x="50" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">PHASE 5</text>
+    <text x="50" y="45" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">🚀 BUILD</text>
+    <text x="50" y="65" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="11">Ongoing</text>
+  </g>
+  
+  <!-- Details boxes -->
+  <!-- Phase 1 details -->
+  <g transform="translate(40, 160)">
+    <rect width="140" height="120" rx="4" fill="#f5f5f5" stroke="#4caf50" stroke-width="2"/>
+    <text x="10" y="25" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Read Getting Started</text>
+    <text x="10" y="45" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Study Implants Guide</text>
+    <text x="10" y="65" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Safety &amp; Legal</text>
+    <text x="10" y="85" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Learn Glossary</text>
+    <text x="10" y="105" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Join community</text>
+  </g>
+  
+  <!-- Phase 2 details -->
+  <g transform="translate(200, 160)">
+    <rect width="140" height="120" rx="4" fill="#f5f5f5" stroke="#2196f3" stroke-width="2"/>
+    <text x="10" y="25" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Buy NFC tags</text>
+    <text x="10" y="45" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Get Proxmark3</text>
+    <text x="10" y="65" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Phone NFC practice</text>
+    <text x="10" y="85" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Build NFC reader</text>
+  </g>
+  
+  <!-- Phase 3 details -->
+  <g transform="translate(360, 160)">
+    <rect width="140" height="120" rx="4" fill="#f5f5f5" stroke="#ff9800" stroke-width="2"/>
+    <text x="10" y="25" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Choose implant</text>
+    <text x="10" y="45" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Find installer</text>
+    <text x="10" y="65" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Prepare for procedure</text>
+    <text x="10" y="85" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Schedule installation</text>
+  </g>
+  
+  <!-- Phase 4 details -->
+  <g transform="translate(520, 160)">
+    <rect width="140" height="120" rx="4" fill="#f5f5f5" stroke="#9c27b0" stroke-width="2"/>
+    <text x="10" y="25" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Get implant!</text>
+    <text x="10" y="45" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Follow aftercare</text>
+    <text x="10" y="65" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Monitor healing</text>
+    <text x="10" y="85" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Initial testing</text>
+  </g>
+  
+  <!-- Phase 5 details -->
+  <g transform="translate(680, 160)">
+    <rect width="100" height="120" rx="4" fill="#f5f5f5" stroke="#009688" stroke-width="2"/>
+    <text x="10" y="25" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ DIY Projects</text>
+    <text x="10" y="45" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Share experiences</text>
+    <text x="10" y="65" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ Help newcomers</text>
+    <text x="10" y="85" fill="#333" font-family="Arial, sans-serif" font-size="10">✓ More implants?</text>
+  </g>
+  
+  <!-- Bottom tip -->
+  <g transform="translate(200, 320)">
+    <rect width="400" height="50" rx="8" fill="#e8f5e9" stroke="#4caf50" stroke-width="1"/>
+    <text x="200" y="22" text-anchor="middle" fill="#2e7d32" font-family="Arial, sans-serif" font-size="12" font-weight="bold">💡 Pro Tip</text>
+    <text x="200" y="40" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="11">Take your time! Most biohackers spend 3-6 months before their first implant.</text>
+  </g>
+</svg>

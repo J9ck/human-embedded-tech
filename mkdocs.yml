@@ -1,22 +1,46 @@
 site_name: The Biohacking Wiki
-site_url: https://J9ck.github.io/human-embedded-tech/
+site_url: https://J9ck.github.io/biohacking-wiki/
 site_description: Your complete guide to human-technology integration, implantable technology, biohacking, and DIY projects.
-repo_url: https://github.com/J9ck/human-embedded-tech
+repo_url: https://github.com/J9ck/biohacking-wiki
 edit_uri: edit/main/docs/
 
 theme:
   name: material
+  custom_dir: docs/overrides
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.png
   palette:
-    primary: teal
-    accent: deep purple
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.instant
     - navigation.tracking
     - navigation.sections
     - navigation.expand
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
     - toc.integrate
     - search.suggest
     - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+    - announce.dismiss
 
 nav:
   - Home: index.md
@@ -36,14 +60,26 @@ nav:
   - Special Projects:
     - PegLeg Project: pegleg/index.md
 
+plugins:
+  - search
+  - tags
+  - glightbox
+
 extra:
+  announce:
+    text: "⚠️ Always consult professionals before any implant procedure. Safety first!"
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/J9ck/human-embedded-tech
+      link: https://github.com/J9ck/biohacking-wiki
+
+extra_css:
+  - assets/stylesheets/extra.css
 
 markdown_extensions:
   - admonition
   - tables
+  - attr_list
+  - md_in_html
   - toc:
       permalink: true
   - pymdownx.highlight
