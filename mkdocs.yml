@@ -1,0 +1,16 @@
+site_name: Human Embedded Technology Wiki
+site_url: https://J9ck.github.io/human-embedded-tech/
+site_description: Documentation exploring implantable technology, biohacking history, and human-device integration.
+repo_url: https://github.com/J9ck/human-embedded-tech
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Getting Started: biohacking-history.md
+  - Implants Guide:
+    - Overview: implant-tech-files/index.md
+    - Implant Notes: implant-tech-files/implant-notes.md
+  - PegLeg Project: pegleg/index.md
